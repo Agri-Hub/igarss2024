@@ -1,0 +1,32 @@
+name: datacube
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - geopandas
+  - xarray
+  - datacube
+  - rasterio
+  - gdal
+  - boto3
+  - botocore
+  - scipy
+  - scikit-learn
+  - jupyter
+  - pip
+  - pip:
+      - pystac
+      - odc-stac
+      - geogif
+      - datacube-ows
+      - dea-tools
+      - odc-algo
+      - odc-geo
+      - odc-io
+      - odc-stats
+      - odc-ui
+      - rioxarray
