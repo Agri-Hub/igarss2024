@@ -23,7 +23,6 @@ dependencies:
       - odc-stac
       - geogif
       - datacube-ows
-      - dea-tools
       - odc-algo
       - odc-geo
       - odc-io
